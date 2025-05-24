@@ -6,13 +6,39 @@ body {
 
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+     display: flex;
+     align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -24,8 +50,19 @@ a {
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px ;
 }
 
 .nav-link {
@@ -34,10 +71,19 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link {
@@ -45,6 +91,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -57,6 +105,9 @@ a {
 .hero{
    background-color:  #2e2f42; 
 }
+ .container-hero {
+        padding: 188px 316px
+    }
 
 .hero-title {
    font-weight: 700;
@@ -65,6 +116,10 @@ a {
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
+   margin: 0 auto;
+   padding-bottom: 48px;
+   max-width: 496px;
+  
 }
 
 .hero_btn {
@@ -75,6 +130,9 @@ a {
    color: #fff;
    background-color: #4d5ae5;
    cursor: pointer;
+   display: block;
+   margin: 0 auto;
+   padding: 16px 32px;
 }
 .hero_btn:hover,
 .hero_btn:focus {
