@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+.img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -104,9 +108,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .hero{
    background-color:  #2e2f42; 
+   padding: 188px 0;
 }
  .container-hero {
-        padding: 188px 0;
+        
     }
 
 .hero-title {
@@ -143,6 +148,12 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #404bbf;;
 }
 
+.visually-hidden {
+   overflow: hidden; 
+   position: absolute;
+   white-space: nowrap;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
@@ -158,7 +169,11 @@ h1, h2, h3, h4, h5, h6, p {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
-   padding-bottom: 8px;
+   margin-bottom: 8px; 
+}
+
+.team-subtitle {
+    margin-bottom: 8px;
 }
 
 .section-text {
@@ -176,7 +191,7 @@ h1, h2, h3, h4, h5, h6, p {
    text-align: center;
    text-transform: capitalize;
    color: #2e2f42;
-   padding-bottom: 72px;
+   margin-bottom: 72px; 
 }
 
 .team {
@@ -185,6 +200,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team-item {
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-list {
@@ -195,7 +211,7 @@ h1, h2, h3, h4, h5, h6, p {
 .text {
     text-align: center;
     padding: 32px 0;
-    border-radius: 0 0 4px 4px;
+    
 }
 
 .portfolio-list {
@@ -206,6 +222,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio-item {
     
+}
+
+.portfolio-title {
+  margin-bottom: 72px;   
+}
+
+.portfolio-subtitle {
+   .margin-bottom: 8px; 
 }
 
 .text-item {
@@ -219,7 +243,7 @@ h1, h2, h3, h4, h5, h6, p {
    color: #f4f4fd;
 }
 .footer-logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
