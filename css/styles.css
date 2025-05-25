@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -149,9 +149,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .visually-hidden {
-   overflow: hidden; 
-   position: absolute;
-   white-space: nowrap;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
 }
 
 .features-list {
